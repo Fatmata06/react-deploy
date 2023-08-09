@@ -1,0 +1,21 @@
+@media (min-width:425px) and (max-width:912px){
+    img.imagen1{
+            width: 40px;
+        }
+    
+        img.imagen2{
+            width: 40px;
+        }
+    }
+    @media (min-width:260px) and (max-width:424px){
+        img.imagen1{
+                width: 20px;
+            }
+        
+            img.imagen2{
+                width: 20px;
+            }
+            .h-text p{
+               font-size: 9px;
+            }
+        }

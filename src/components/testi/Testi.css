@@ -1,0 +1,36 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #1A1A1A;
+    height: auto;
+  }
+
+ .cardss{
+    background-color: #373636; 
+    color: #fff;
+    margin: 5px;    
+    border-radius: 8px;
+  }
+
+   
+.text{  
+    color: #A8A8A8;
+    margin: 8px;
+  }
+
+p{
+    color: #D2D2D2;
+    margin:5px;
+}
+
+@media (min-width:260px) and (max-width:999px){
+  img.imagen1{
+          width: 40px;
+      }
+  
+      img.imagen2{
+          width: 40px;
+      }
+  }
+ 

@@ -1,0 +1,175 @@
+.h-wrapper{
+    background-color: rgba(26, 26, 26, 1);
+   
+    color: white;
+  
+    
+
+}
+
+.h-nombre  h5{
+    font-size: 40px;font-weight: 1600;
+    padding-top: 90px;
+    line-height:0em ;
+
+}
+.h-menu{
+    text-align: right;
+}
+.h-wrapper{
+    padding: auto;
+}
+.h-container{
+    display:flex;
+}
+.h-container .h-text{
+   
+    font-size: 40px;font-weight: 900;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+ 
+}
+.h-container .h-text h5{
+   
+    font-size: 40px;font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+ 
+}
+.h-container .h-text  p{
+    font-size: 20px;font-weight: 100;
+    text-align: left;
+    line-height: 2em;
+    
+    
+}
+
+button{
+cursor: pointer;
+border: none;
+background-color: rgba(26, 26, 26, 1);
+text-align: left;
+
+}
+.milieu img{
+border-radius: 12px;
+height: 100vh;
+
+}
+.h-container .h-nombre{
+    font-size: 25px;
+    padding-right:70px;
+    margin-left: 70px;
+    text-align: left;
+    line-height: 30px;
+    padding-top: 40px;
+}
+.h-container .h-nombre p{
+    font-size: 13px;font-weight: 700;
+    display: contents;
+    line-height: -3rem;
+    color: darkgray;
+
+}   
+.h-icon p{
+text-align: center;
+padding-top: 75px;
+
+}
+
+  .h-icons{
+    align-items: center;
+    display: flex;
+   padding-bottom: 45px;
+    padding-left: 25%;
+    width: 971px;
+    height: 100px;
+    top: 887px;
+    left: 197px
+    
+  } 
+
+/* max-width, si l'ecran est inf ou egal alors {...} */
+/* max-width = desktop-first*/
+ @media screen and (max-width: 576px) {
+    .h-container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .h-icon{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+       }
+       
+ }
+
+@media screen and (max-width: 992px) {
+    .h-icons{
+        display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    
+   
+     
+    }
+    
+ }
+
+ @media screen and (max-width: 768px) {
+    .h-icons{
+        display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    
+    }
+   
+ }
+  
+ @media screen and (max-width: 996px) {
+    .milieu{
+      max-width: 500px;
+    }
+    img{
+      width: 100%;
+    }
+    .h-icons{
+      display: grid;
+   grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      height: 100%;
+    }
+   }
+  @media screen and (max-width: 925px) {
+    .h-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .milieu{
+      max-width: 100%;
+    }
+   } 
+   @media (min-width:425px) and (max-width:912px){
+    img{
+      width: 100%;
+    }
+    .h-icon1{
+      width: 60%;
+    }
+    .h-icon2{
+      width: 60%;
+    }
+    .h-icon4{
+      width: 150%;
+     margin-left: -180px;
+    }
+
+    .h-icon3{
+      width: 150%;
+       margin-left:  -180px;
+    }
+   }

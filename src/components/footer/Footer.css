@@ -1,0 +1,91 @@
+.page-container {
+    display: flex;
+   margin-top: 72px;
+   
+   /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: rgba(26, 26, 26, 1);*/
+   /* padding-top: 12%;
+    width: 1121px;
+    height: 213px;*/
+    
+   
+  }
+  
+  .left-section{
+    font-size: 25px;
+    padding-right: 40%;
+    text-align: left;
+  }
+  
+  .right-section {
+    width: 20%; /* utilisé un pourcentage au lieu d'un pixel */
+  }
+  
+  .message-images {
+    width: 125px; /* gardé un pixel pour la largeur fixe */
+    height: auto; /* utilisé auto pour la hauteur proportionnelle */
+    cursor: pointer;
+    padding-right: 22px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icons a {
+    color: #fcfbfb;
+    font-size: 24px; /* gardé un pixel pour la taille fixe */
+  }
+  
+  .social-icons a:hover {
+    color: #ff0000;
+  }
+  
+   h3, p {
+    font-family: 5rem;
+  }
+  
+  h2 {
+    font-size: 2rem; /* utilisé un rem au lieu d'un pixel */
+    color: #FFFFFF;
+    width: 368px;
+    
+  }
+  
+  h3 {
+      color: white;
+      font-size: 1rem; /* utilisé un rem au lieu d'un pixel */
+      margin: 10px;
+  }
+  
+  p  {
+    font-size: 1rem; /* utilisé un rem au lieu d'un pixel */
+    color: #fdfbfb;
+  
+ 
+  }
+
+  .create{
+    margin-top: 6%;
+  }
+  
+  /* Ajouté une media query pour les écrans inférieurs à 768px */
+  @media (max-width: 768px) {
+    
+  /* Changé la direction du flex-container en colonne */
+  .page-container {
+      flex-direction: column;
+  }
+  
+  /* Changé la largeur des sections en auto */
+  .left-section, .right-section {
+      width: auto;
+  }
+  
+  /* Centré le titre des icônes sociales */
+  .right-section h3 {
+      text-align: center;
+  }
+  }
+  

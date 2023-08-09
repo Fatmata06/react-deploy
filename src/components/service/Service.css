@@ -1,0 +1,86 @@
+.container{
+    /*background-color: rgba(26, 26, 26, 1);*/
+    padding-top: 50px;
+   
+    
+}
+/*.row{
+    background-color: rgba(35, 35, 35, 1);
+    color: grey;
+    border-radius: 20px;
+}*/
+/*.row{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}*/
+.s-icon {
+    font-size: 25px;
+    color:darkgray;
+}
+.service1 h2  {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 0px;
+    
+}
+.service1 .text p{
+    font-size: 15px;
+    text-align: left;
+    padding: 5px 0px;
+    color: darkgrey;
+ 
+}
+.col-5 p {
+    font-size: 15px;font-weight: 600;
+    color:darkgrey;
+    padding-top: 0px;
+    margin-left: 70px;
+    width: 358px;
+height: 44px;
+top: 1343px;
+left: 812px;
+
+    
+}
+
+.infos01 h6 {color: darkgray; }
+
+
+.service1 span{
+    font-size: 35px;font-weight: 600;
+   
+}
+.service1 {
+    padding-bottom: 45px;
+    padding-left: 45px;
+    
+   
+}
+.service2 {
+    padding-top: 50px;
+    padding-left: 10%;
+   
+}
+
+    @media (min-width:175px) and (max-width:912px){
+        .s-icon{
+            margin-left: 50px; 
+            font-size: 80px;
+        }
+        .job{
+           margin-left: 50px; 
+            font-size: 20px;
+        }
+        .cont{
+            margin-left: -90px; 
+            flex-wrap: wrap;
+           
+             
+         }
+       
+        
+    }
+   
+
+
+

@@ -1,0 +1,36 @@
+.container{
+    background: #1A1A1A;
+    color: white;
+    
+  }
+  
+  .dillo1{
+    display: grid;
+    object-fit: contain;
+    /*margin-bottom: 22px;*/
+    padding-bottom: 20px;
+    margin-right: 0px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .dillo2{
+    object-fit: contain;
+   padding-bottom: 30%;
+   /* margin-bottom: 50px;*/
+  }
+  .dillo3{
+    object-fit: contain;
+    /*margin-bottom: 30px;
+    padding-bottom: 30px;*/
+    margin-left: 40px;
+  }
+  .dillo4{
+    object-fit: contain;
+   padding-top: 50px;
+    margin-left: 40px;
+  
+  }
+  
+  
+  
+  
