@@ -45,23 +45,14 @@ p{
 
       .cardss{
         flex-direction: column;
-        width: 100px;
+        width: 200px;
         
         
       }
   }
-  @media(max-width:395px){
-    .cards{
-            width: 100px;
-            margin-top: 5px;
-        }
-        
-        .cardss{
-          flex-direction: column;
-          width: 100px;
-          
-          
-        }
+  @media(min-width:320)and(max-width:559px){
+    *{
+      max-width: max-content;
     }
-
- 
+  }
+  

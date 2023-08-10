@@ -34,8 +34,8 @@ function Service() {
        </div>
               
         
-    <div class=" service2 col-8  col-12 col-lg-9 row align-items-start ">
-      <hr/>
+    <div className='ser2' class="service2 col-8  col-12 col-lg-9 row align-items-start text-center ">
+      <hr className='serv2'/>
 
       <div class="col-2 col-12 col-lg-2">
       <i class="fas fa-trophy fa-2x">
@@ -52,7 +52,7 @@ function Service() {
       <div class="cont col-5 col-12 col-lg-5">
       <p> Lorem Ipsum dolor sit amet, consetetur sad pscina elitr, sed diam nonum elriod tempor invidunt ut </p>
       </div>
-      < hr/>
+      < hr className='serv3'/>
       
 
       <div class="col-2 col-12 col-lg-2 ">
@@ -71,7 +71,7 @@ function Service() {
       </div>
     
 
-      <hr/>
+      <hr className='serv3'/>
 
   <div class="col-2 col-12 col-lg-2">
   <i class="fas fa-trophy fa-2x">
@@ -90,7 +90,7 @@ function Service() {
   </div>
 
 
-  <hr/>
+  <hr className='serv3'/>
 
   <div class="col-2 col-12 col-lg-2">
   <i class="fas fa-trophy fa-2x">
@@ -107,7 +107,7 @@ function Service() {
   <div class="cont col-5 col-12 col-lg-5">
   <p> Lorem Ipsum dolor sit amet, consetetur sad pscina elitr, sed diam nonum elriod tempor invidunt ut </p>
   </div>
-  < hr/>
+  < hr className='serv3'/>
 
       
     </div>
