@@ -25,12 +25,19 @@ p{
 }
 
 @media (min-width:260px) and (max-width:999px){
-  img.imagen1{
-          width: 40px;
-      }
-  
+ 
       img.imagen2{
           width: 40px;
+      }
+      .title{
+        height: 200px;
+        width: 300px;
+      }
+      .p{
+        font-size: 10px;
+      }
+      .my{
+        font-size: 5px;
       }
   }
  

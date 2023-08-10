@@ -16,7 +16,7 @@ function Header () {
           <span>Hello, I am Adin </span>
           <h5>A Product</h5> 
           <h5>Designer</h5>
-          <p style={{textAlign:'center' }}>Lorem Ipsum is simply dummy text of the printing 
+          <p >Lorem Ipsum is simply dummy text of the printing 
             Lorem Ipsum has been the industry's standard du 
            when an unknown printer took a unknown printer took a </p>
            <button>
