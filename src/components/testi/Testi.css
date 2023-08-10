@@ -24,7 +24,7 @@ p{
     margin:5px;
 }
 
-@media (min-width:260px) and (max-width:999px){
+@media(max-width:999px){
  
       img.imagen2{
           width: 40px;

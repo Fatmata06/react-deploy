@@ -37,9 +37,10 @@ p{
   text-align:left;
 }
 
-@media (min-width:425px) and (max-width:912px){
+@media(max-width:1224px){
   .cards{
           width: 330px;
+          margin-top: 10px;
       }
 
       .cardss{
@@ -49,12 +50,12 @@ p{
         
       }
   }
-
-  @media (min-width:180px) and (max-width:424px){
+  @media(max-width:395px){
     .cards{
-            width: 300px;
+            width: 100px;
+            margin-top: 5px;
         }
-  
+        
         .cardss{
           flex-direction: column;
           width: 100px;
@@ -62,3 +63,5 @@ p{
           
         }
     }
+
+ 

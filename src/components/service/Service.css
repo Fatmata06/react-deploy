@@ -62,13 +62,13 @@ left: 812px;
    
 }
 
-    @media (min-width:175px) and (max-width:912px){
+    @media  (max-width:912px){
         .s-icon{
-            margin-left: 140px; 
+            
             font-size: 40px;
         }
         .job{
-           margin-left: 140px; 
+           
             font-size: 20px;
         }
         .cont{
