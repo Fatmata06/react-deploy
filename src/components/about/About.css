@@ -63,9 +63,10 @@ margin-left: 5px;
 margin-top: 26px;
 } */
 
+
 @media (max-width:425px){
   
-  
+ 
   img.image{
     width: 90%;
     
@@ -86,11 +87,12 @@ margin-top: 26px;
 
 
 @media(max-width:425px){
+  
   .ABOUT{
-    margin-top: 210%;
+    margin-top: 10%;
   }
   img.image{
-    width: 200px;
+    width: 300px;
     
    
   }
