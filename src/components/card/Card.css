@@ -2,15 +2,17 @@
   display: flex;
   background-color: #A8A8A8;
   height: 100%;
+
+  
   
 }
-
 .cards{   
+  
   color: #9b9292;
   margin-left: 15px; 
   border-top: 5px solid;
   width: 100%;
-  
+ 
 }
 
 .my{  
@@ -35,7 +37,8 @@
   .cards{
           width: 100%;
           margin-top: 10px;
-          margin-left: 1px; 
+          margin-left: 0px;
+         
       }
       
       .cardss{
@@ -46,16 +49,18 @@
       }
   }
   @media(max-width:385px){
+    
     .cards{
             width:100%;
             margin-top: 10px;
-            margin-left: 1px;
+            margin-left: 0px;
+            
         }
         
         .cardss{
           flex-direction: column;
           width: 100%;
-          
+         
           
         }
     }

@@ -6,7 +6,7 @@ function About() {
   return (
       <div className='ABOUT'>
         <div class="container  text-white">
-        <div class=" row align-items-start">
+        <div class=" row align-items-center">
             
      <div class="col-6 col-4 col-lg-4">
      <h2 style={{marginLeft:'15px', fontSize: '40px',fontWeight: '600'}}>About me</h2>
