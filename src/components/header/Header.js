@@ -23,7 +23,7 @@ function Header () {
            <img src={require("../../assets/images/Button.png")} width={200} />
            </button>
     </div>
-    <div className='milieu'>    <img src={require("../../assets/images/image.png")} />
+    <div className='milieu'><img src={require("../../assets/images/image.png")} />
 </div>
     <div className='h-nombre'>
               <h5>120</h5>

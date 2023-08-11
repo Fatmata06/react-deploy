@@ -71,12 +71,12 @@ margin-top: 26px;
   }
   
 } 
-@media (min-width:426px) and (max-width:995px){
+@media (min-width:426px) and (max-width:1210px){
   .ABOUT{
-    margin-top: 80%;
+    margin-top: 15%;
   }
   img.image{
-    width: 400px;
+    width: 100%;
     
    
   }

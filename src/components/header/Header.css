@@ -88,7 +88,7 @@ padding-top: 75px;
     display: flex;
    padding-bottom: 45px;
     padding-left: 25%;
-    width: 971px;
+    width: 100%;
     height: 100px;
     top: 887px;
     left: 197px
@@ -158,18 +158,18 @@ padding-top: 75px;
       width: 100%;
     }
     .h-icon1{
-      width: 60%;
+      width: 100%;
     }
     .h-icon2{
-      width: 60%;
+      width: 100%;
     }
     .h-icon4{
-      width: 150%;
-     margin-left: -180px;
+      width: 100%;
+    
     }
 
     .h-icon3{
-      width: 150%;
-       margin-left:  -180px;
+      width: 100%;
+       
     }
    }

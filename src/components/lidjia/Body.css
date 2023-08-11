@@ -32,7 +32,12 @@
    /* margin-left: 10px;*/
   
   }
-
+  @media (min-width:997px) and (max-width:1136px){
+    .dillo1{width: 100%;}
+    .dillo2{width: 100%;}
+    .dillo3{width: 100%;}
+    .dillo4{width: 100%;}
+  }
   
   
   

@@ -1,11 +1,7 @@
 .cardss{
   display: flex;
-  
- 
   background-color: #A8A8A8;
   height: 350px;
-  
-
 }
 
 .cards{   
@@ -43,20 +39,20 @@
       .cardss{
         flex-direction: column;
         width: 200px;
-        align-items: left;
+       
         
       }
   }
   @media(max-width:385px){
     .cards{
-            width: 330px;
+            width:100%;
             margin-top: 10px;
            
         }
         
         .cardss{
           flex-direction: column;
-          width: 200px;
+          width: 100%;
           
           
         }
