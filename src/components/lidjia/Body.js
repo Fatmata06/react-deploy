@@ -10,7 +10,7 @@ function Body() {
 
   return (
 
-        <div className="container">
+        <div className="container " >
          <div className='row '>
           <div style={{marginLeft:'30px', marginRight:'40px' ,fontSize: '40px',fontWeight: '600' }} className='col-4 col-12 col-lg-3'>
           <h2 className='Latestworks'>Latest</h2> 
@@ -20,7 +20,7 @@ function Body() {
                diam nonumy eirmod tempor 
                invidunt ut labore et dolore
             </p>
-            <img src={button} alt="" />
+            <img style={{ marginRight:'60px', width:'200px' }} src={button} className="button" />
           </div>
           <div className='col-4 col-12 col-lg-4 '>
           <img src={Card1} className="dillo1" />

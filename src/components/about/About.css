@@ -61,9 +61,29 @@ margin-left: 5px;
 margin-top: 26px;
 } */
 
+@media (min-width:426px){
+  
+  
+  img.image{
+    width: 90%;
+    
+   
+  }
+  
+} 
+@media (min-width:426px) and (max-width:995px){
+  .ABOUT{
+    margin-top: 80%;
+  }
+  img.image{
+    width: 400px;
+    
+   
+  }
+}
 
 
-@media (min-width:260px) and (max-width:912px){
+@media(max-width:425px){
   .ABOUT{
     margin-top: 210%;
   }

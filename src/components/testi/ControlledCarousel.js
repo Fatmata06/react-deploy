@@ -14,7 +14,7 @@ function ControlledCarousel() {
   };
 
   return ( 
-      <div className="title">
+      <div  style={{width:'100%'}}className="title">
       <h2 style={{marginLeft:'40px', fontSize: '40px',fontWeight: '600'}}className='my'>Testimonials</h2>  
       
     <Carousel activeIndex={ index } onSelect={ handleSelect } style={{background:'#1A1A1A',  height:'170px',backgroundColor:'#373636', marginLeft:'40px' }}>

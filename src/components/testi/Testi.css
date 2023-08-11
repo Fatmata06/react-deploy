@@ -24,7 +24,14 @@ p{
     margin:5px;
 }
 
-@media(max-width:999px){
+@media(max-width:995px){
+ 
+  img.imagen2{
+      width: 40px;
+  }
+}
+
+@media(max-width:425px){
  
       img.imagen2{
           width: 40px;

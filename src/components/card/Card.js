@@ -3,7 +3,7 @@ import './Card.css';
                                 
 function Card() {   
   return (
-    <div className="container" >
+    <div className="container " >
       <h2 style={{marginLeft:'40px', fontSize: '40px',fontWeight: '600'}}className='my'>My Approach</h2>   
       <div className='cardss' style={{background:'#1A1A1A'}}>    
         <div className='cards' style={{background:'#3a3737'}}>
