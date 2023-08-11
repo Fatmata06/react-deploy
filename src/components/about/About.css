@@ -61,7 +61,7 @@ margin-left: 5px;
 margin-top: 26px;
 } */
 
-@media (min-width:426px){
+@media (max-width:425px){
   
   
   img.image{

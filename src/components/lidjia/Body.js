@@ -12,7 +12,7 @@ function Body() {
 
         <div className="container " >
          <div className='row '>
-          <div style={{marginLeft:'30px', marginRight:'40px' ,fontSize: '40px',fontWeight: '600' }} className='col-4 col-12 col-lg-3'>
+          <div style={{marginLeft:'15px', marginRight:'40px' ,fontSize: '40px',fontWeight: '600' }} className='col-4 col-12 col-lg-3'>
           <h2 className='Latestworks'>Latest</h2> 
                          <h2>Works</h2>
             <p>Lorem ipsum dolor sit amet, 

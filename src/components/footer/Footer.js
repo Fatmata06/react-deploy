@@ -12,11 +12,11 @@ function Footer  ()  {
   };
 
   return (
-    <div className="page-container"> 
-  <div style={{marginLeft:'10px'}} className="left-section">
-    <h2 style={{marginLeft:'40px',fontSize:'45px'}}>Interested in <br></br>working with me?</h2>
+    <div className="page-container text-center"> 
+  <div style={{marginLeft:'15px'}} className="left-section">
+    <h2 style={{fontSize:'45px'}}>Interested in <br></br>working with me?</h2>
     
-      <img style={{marginLeft:'40px'}} src={require("../../assets/images/Button.png")}/> 
+      <img  src={require("../../assets/images/Button.png")}/> 
   
   </div>
   <div className="right-section">

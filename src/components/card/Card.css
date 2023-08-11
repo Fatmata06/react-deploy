@@ -10,16 +10,16 @@
 
 .cards{   
   color: #9b9292;
-  margin: 30px; 
+  margin-left: 15px; 
   border-top: 5px solid;
-  width: 368px;
+  width: 100%;
   
 }
 
 .my{  
   color: #fff;
   font-size: 50px;
-  margin: 30px;
+  
 }
 
 .text{  
@@ -43,9 +43,23 @@
       .cardss{
         flex-direction: column;
         width: 200px;
-        
+        align-items: left;
         
       }
   }
+  @media(max-width:385px){
+    .cards{
+            width: 330px;
+            margin-top: 10px;
+           
+        }
+        
+        .cardss{
+          flex-direction: column;
+          width: 200px;
+          
+          
+        }
+    }
   
   
