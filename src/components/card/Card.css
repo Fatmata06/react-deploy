@@ -1,7 +1,8 @@
 .cardss{
   display: flex;
   background-color: #A8A8A8;
-  height: 350px;
+  height: 100%;
+  
 }
 
 .cards{   

@@ -6,7 +6,7 @@ function Card() {
     <div className="container " >
       <h2 style={{marginLeft:'15px', fontSize: '40px',fontWeight: '600'}}className='my'>My Approach</h2>   
       <div className='cardss' style={{background:'#1A1A1A'}}>    
-        <div className='cards' style={{background:'#3a3737'}}>
+        <div className='cards align-items-center' style={{background:'#3a3737'}}>
           <p>One</p>
         <h4 className="card-title">Research</h4>
             <p className="text ">Lorem ipsum dolor 
