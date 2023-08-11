@@ -59,7 +59,7 @@ text-align: left;
 }
 .milieu img{
 border-radius: 12px;
-height: 100vh;
+
 
 }
 .h-container .h-nombre{
@@ -132,7 +132,7 @@ padding-top: 75px;
   
  @media screen and (max-width: 996px) {
     .milieu{
-      max-width: 500px;
+      max-width: 100%;
     }
     img{
       width: 100%;
