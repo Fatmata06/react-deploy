@@ -1,4 +1,5 @@
 import React from 'react';
+import './Service.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCube, faTrophy, faVideo, faComputer} from '@fortawesome/free-solid-svg-icons';
 

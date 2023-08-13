@@ -13,7 +13,7 @@ import ControlledCarousel from './components/testi/ControlledCarousel';
 function App() {
   return (
     <div className='container'>
-    <Header/> 
+     <Header/>
     <Service/>
     <Body/>
     <Card/>

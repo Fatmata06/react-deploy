@@ -19,15 +19,15 @@
   }
   
   .right-section {
-    width: 20%; /* utilisé un pourcentage au lieu d'un pixel */
+    width: 20%; 
   }
   
-  .message-images {
-    width: 100%; /* gardé un pixel pour la largeur fixe */
-    height: auto; /* utilisé auto pour la hauteur proportionnelle */
+  /* .message-images {
+    width: 100%; 
+    height: auto; 
     cursor: pointer;
     padding-right: 22px;
-  }
+  } */
   
   .social-icons {
     display: flex;

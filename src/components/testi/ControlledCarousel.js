@@ -28,6 +28,8 @@ function ControlledCarousel() {
       </Carousel.Item>
      
     </Carousel>
+
+    
     </div>
     
   );
