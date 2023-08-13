@@ -80,6 +80,11 @@ margin-top: 26px;
   
 } 
 @media (min-width:426px) and (max-width:1210px){
+  .container{
+    background-color: rgba(26, 26, 26, 1); /* ajouté cette ligne */
+    max-width:max-content;
+    overflow:hidden;
+  }
   .ABOUT{
     margin-top: 15%;
   }
@@ -92,6 +97,11 @@ margin-top: 26px;
 
 
 @media(max-width:425px){
+  .container{
+    background-color: rgba(26, 26, 26, 1); /* ajouté cette ligne */
+    max-width:max-content;
+    overflow:hidden;
+  }
  
   .ABOUT{
     margin-top: 10%;
